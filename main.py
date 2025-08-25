@@ -30,7 +30,8 @@ def add_complaint_record(record):
 st.title("GenAI Complaint Analyzer and Response Generator")
 st.write("Paste or upload a customer complaint. The system will analyze and draft a suggested reply.")
 
-api_key = os.getenv("GROQ_API_KEY")
+api_key = st.secrets["GROQ_API_KEY"]
+# os.getenv("GROQ_API_KEY")
 
 input_mode = st.radio("Input mode", ["Paste text", "Upload file (txt)"])
 
