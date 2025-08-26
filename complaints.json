@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2025-08-26T05:57:50.332448",
+    "customer_id": "",
+    "channel": "Email",
+    "complaint_text": "I purchased a health insurance plan last month but my claim for hospitalization was denied without proper explanation. \nThe customer support team has not responded to my emails for over a week. \nThis is extremely frustrating and I would like an immediate resolution.",
+    "analysis": {
+      "issue_type": "other",
+      "urgency": "medium",
+      "sentiment": "neutral",
+      "priority_score": 5,
+      "key_phrases": [],
+      "raw_text": "```json\n{\n  \"issue_type\": \"denial\",\n  \"urgency\": \"high\",\n  \"sentiment\": \"negative\",\n  \"priority_score\": 9,\n  \"key_phrases\": [\"denied claim\", \"lack of explanation\", \"unresponsive customer support\"]\n}\n```"
+    },
+    "response_draft": "Subject: Re: Denied Claim and Unresponsive Support\n\nDear [Customer's Name],\n\nI apologize for the frustration and inconvenience caused by the delayed response to your emails and the denied claim for hospitalization. \n\nYou had purchased a health insurance plan with us last month and your claim for hospitalization was denied without a proper explanation.\n\nI'm here to help resolve this issue promptly. To investigate this matter further, I would like to request that you please reply to this email with your claim reference number and a brief summary of your hospitalization expenses. \n\nI will also escalate this case to our claims department and ensure that you receive a detailed explanation for the denial. You can expect a response from me within the next 48 hours.\n\nPlease feel free to contact me directly at [Support Email] or [Support Phone Number] if you have any further questions or concerns.\n\nThank you for your patience and cooperation.\n\nBest regards,\n[Your Name]\nCustomer Support Agent",
+    "status": "generated"
+  }
+]
