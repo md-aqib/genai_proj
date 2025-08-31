@@ -15,5 +15,125 @@
     },
     "response_draft": "Subject: Re: Denied Claim and Unresponsive Support\n\nDear [Customer's Name],\n\nI apologize for the frustration and inconvenience caused by the delayed response to your emails and the denied claim for hospitalization. \n\nYou had purchased a health insurance plan with us last month and your claim for hospitalization was denied without a proper explanation.\n\nI'm here to help resolve this issue promptly. To investigate this matter further, I would like to request that you please reply to this email with your claim reference number and a brief summary of your hospitalization expenses. \n\nI will also escalate this case to our claims department and ensure that you receive a detailed explanation for the denial. You can expect a response from me within the next 48 hours.\n\nPlease feel free to contact me directly at [Support Email] or [Support Phone Number] if you have any further questions or concerns.\n\nThank you for your patience and cooperation.\n\nBest regards,\n[Your Name]\nCustomer Support Agent",
     "status": "generated"
+  },
+  {
+    "id": 2,
+    "timestamp": "2025-08-31T13:05:11.145503",
+    "customer_id": "",
+    "channel": "Email",
+    "complaint_text": "I purchased a health insurance plan last month but my claim for hospitalization was denied without proper explanation. \nThe customer support team has not responded to my emails for over a week. \nThis is extremely frustrating and I would like an immediate resolution.",
+    "analysis": {
+      "issue_type": "denial",
+      "urgency": "high",
+      "sentiment": "negative",
+      "priority_score": 9,
+      "key_phrases": [
+        "denied claim",
+        "lack of explanation",
+        "unresponsive customer support"
+      ]
+    },
+    "response_draft": "Subject: Re: Denied Claim and Unresponsive Support\n\nDear [Customer's Name],\n\nI apologize for the frustration and inconvenience you've experienced with your denied claim and delayed response from our support team. \n\nWe understand that your claim for hospitalization was denied without a proper explanation, and we want to ensure this is resolved as soon as possible. \n\nTo investigate this matter further, please contact our dedicated claims team at claims@insuranceprovider.com or call 1-800-CLAIMS (1-800-252-4677) within the next 24 hours. They will review your case and provide a detailed explanation for the denial.\n\nAdditionally, we will look into the delay in our support team's response and take necessary steps to prevent such situations in the future.\n\nThank you for your patience and cooperation. We value your trust in our insurance provider and look forward to resolving this issue promptly.\n\nBest regards,\n[Your Name]\nCustomer Support Team",
+    "status": "generated"
+  },
+  {
+    "id": 3,
+    "timestamp": "2025-08-31T13:08:43.216305",
+    "customer_id": "",
+    "channel": "Email",
+    "complaint_text": "I purchased a health insurance plan last month but my claim for hospitalization was denied without proper explanation. \nThe customer support team has not responded to my emails for over a week. \nThis is extremely frustrating and I would like an immediate resolution.",
+    "analysis": {
+      "issue_type": "denial",
+      "urgency": "high",
+      "sentiment": "negative",
+      "priority_score": 9,
+      "key_phrases": [
+        "denied claim",
+        "lack of explanation",
+        "unresponsive customer support"
+      ]
+    },
+    "response_draft": "Subject: Re: Denied Claim and Unresponsive Support\n\nDear [Customer's Name],\n\nI apologize for the frustration and delay you've experienced with your claim and our support team's response. Unfortunately, your hospitalization claim was denied without a proper explanation, and we appreciate you bringing this to our attention.\n\nWe will immediately investigate this matter and provide a detailed explanation for the denial. In the meantime, I'd like to offer you a dedicated phone line to discuss your claim and expedite the resolution process. Please call us at 1-800-123-4567, extension 5678, and ask for [Agent's Name]. We will also send a follow-up email to ensure we're in touch with you throughout this process.\n\nThank you for your patience and cooperation. We value your trust in our health insurance plan and look forward to resolving this issue for you.\n\nBest regards,\n[Your Name]\nCustomer Support Agent",
+    "status": "generated"
+  },
+  {
+    "id": 4,
+    "timestamp": "2025-08-31T13:10:44.184208",
+    "customer_id": "",
+    "channel": "Email",
+    "complaint_text": "I purchased a health insurance plan last month but my claim for hospitalization was denied without proper explanation. \nThe customer support team has not responded to my emails for over a week. \nThis is extremely frustrating and I would like an immediate resolution.",
+    "analysis": {
+      "issue_type": "denial",
+      "urgency": "high",
+      "sentiment": "negative",
+      "priority_score": 9,
+      "key_phrases": [
+        "denied claim",
+        "lack of explanation",
+        "unresponsive customer support"
+      ]
+    },
+    "response_draft": "Subject: Re: Denied Claim and Unresolved Inquiry\n\nDear [Customer's Name],\n\nI apologize for the frustration and delay you've experienced with your claim and our response to your emails. Your claim for hospitalization was denied without a proper explanation, and you have not received a timely response from our customer support team.\n\nWe take situations like this seriously and would like to investigate further. I have escalated your case to our claims team, and they will review your claim and provide a detailed explanation for the denial. You will also receive a separate email from our claims team with an update on the status of your claim.\n\nIf you have any further questions or concerns, please don't hesitate to reach out to me directly at [Your Email Address] or call us at [Your Phone Number]. We appreciate your patience and look forward to resolving this matter for you as soon as possible.\n\nBest regards,\n[Your Name]\nCustomer Support Agent",
+    "status": "generated"
+  },
+  {
+    "id": 5,
+    "timestamp": "2025-08-31T13:11:12.625377",
+    "customer_id": "",
+    "channel": "Email",
+    "complaint_text": "I purchased a health insurance plan last month but my claim for hospitalization was denied without proper explanation. \nThe customer support team has not responded to my emails for over a week. \nThis is extremely frustrating and I would like an immediate resolution.",
+    "analysis": {
+      "issue_type": "denial",
+      "urgency": "high",
+      "sentiment": "negative",
+      "priority_score": 9,
+      "key_phrases": [
+        "denied claim",
+        "lack of explanation",
+        "unresponsive customer support"
+      ]
+    },
+    "response_draft": "Subject: Re: Denied Claim and Unresponsive Support\n\nDear [Customer's Name],\n\nI apologize for the frustration and delay you've experienced with your claim and our support team's response. \n\nYour claim for hospitalization was denied without a clear explanation, and our team failed to respond to your emails for over a week. \n\nI've escalated your case, and our claims investigation team will review your claim and provide a detailed explanation for the denial. You will be contacted within the next 48 hours with an update.\n\nIf you have any further questions or concerns, please don't hesitate to reach out to me directly at [Your Email Address] or call us at [Support Phone Number]. \n\nWe value your business and appreciate your patience as we work to resolve this matter.\n\nBest regards,\n[Your Name]\nCustomer Support Team",
+    "status": "generated"
+  },
+  {
+    "id": 6,
+    "timestamp": "2025-08-31T13:12:18.647092",
+    "customer_id": "",
+    "channel": "Email",
+    "complaint_text": "I purchased a health insurance plan last month but my claim for hospitalization was denied without proper explanation. \nThe customer support team has not responded to my emails for over a week. \nThis is extremely frustrating and I would like an immediate resolution.",
+    "analysis": {
+      "issue_type": "denial",
+      "urgency": "high",
+      "sentiment": "negative",
+      "priority_score": 9,
+      "key_phrases": [
+        "denied claim",
+        "lack of explanation",
+        "unresponsive customer support"
+      ]
+    },
+    "response_draft": "Subject: Re: Denied Claim and Unresponsive Emails\n\nDear [Customer's Name],\n\nI apologize for the frustration and inconvenience you've experienced with your denied claim and delayed response from our team. \n\nWe understand that your claim for hospitalization was denied without a proper explanation, and we want to assure you that we're taking immediate action to investigate this matter further.\n\nTo expedite the resolution, I'd like to request that you contact our dedicated claims department directly at 1-800-CLAIMS (1-800-252-4677) or email them at claims@insuranceprovider.com. They will be able to provide you with a detailed explanation for the denial and work with you to resolve the issue as soon as possible.\n\nWe value your business and appreciate your patience as we work to resolve this matter. If you have any further concerns or questions, please don't hesitate to reach out.\n\nThank you for your understanding.\n\nBest regards,\n[Your Name]\nCustomer Support Team",
+    "status": "generated"
+  },
+  {
+    "id": 7,
+    "timestamp": "2025-08-31T13:13:03.957530",
+    "customer_id": "",
+    "channel": "Email",
+    "complaint_text": "I purchased a health insurance plan last month but my claim for hospitalization was denied without proper explanation. \nThe customer support team has not responded to my emails for over a week. \nThis is extremely frustrating and I would like an immediate resolution.",
+    "analysis": {
+      "issue_type": "denial",
+      "urgency": "high",
+      "sentiment": "negative",
+      "priority_score": 9,
+      "key_phrases": [
+        "denied claim",
+        "lack of explanation",
+        "unresponsive customer support"
+      ]
+    },
+    "response_draft": "Subject: Re: Denied Claim and Unresponsive Email\n\nDear [Customer's Name],\n\nI apologize for the frustration and inconvenience you've experienced with your denied claim and unresponsive email. \n\nWe understand that your claim for hospitalization was denied without a proper explanation, which is unacceptable. \n\nTo resolve this issue promptly, I recommend that you contact our Claims Department directly at 1-800-CLAIMS (1-800-252-4677) or email them at claims@insuranceprovider.com. They will investigate your claim and provide a detailed explanation for the denial.\n\nAdditionally, I've escalated your email concerns to our Customer Support Team, and they will ensure that you receive a response within the next 24 hours.\n\nPlease have your policy number and claim details ready when you contact the Claims Department.\n\nThank you for your patience and cooperation.\n\nBest regards,\n[Your Name]\nCustomer Support Agent\nInsurance Provider",
+    "status": "generated"
   }
 ]

@@ -1,4 +1,5 @@
 import os
+import re
 import json
 from datetime import datetime
 import streamlit as st
@@ -15,6 +16,11 @@ load_dotenv()
 
 DATA_FILE = "complaints.json"
 
+INSURANCE_KEYWORDS = [
+    "claim", "policy", "insurance", "premium", "denial", "settlement",
+    "coverage", "accident", "billing", "refund", "delay"
+]
+
 st.set_page_config(page_title="Complaint Analyzer", layout="centered")
 
 # *** helper to ensure storage exists ***
@@ -24,6 +30,11 @@ if "complaints" not in st.session_state:
 def add_complaint_record(record):
     st.session_state.complaints.append(record)
     save_complaints(DATA_FILE, st.session_state.complaints)
+
+def is_insurance_related(text: str) -> bool:
+    """Check if complaint text contains insurance-related terms."""
+    text = text.lower()
+    return any(re.search(rf"\b{kw}\b", text) for kw in INSURANCE_KEYWORDS)
 
 
 # *** UI Code ***
@@ -45,6 +56,11 @@ else:
             complaint_text = uploaded_file.read().decode("utf-8")
         except Exception:
             st.error("Could not read file. Make sure it's a UTF-8 text file.")
+
+if complaint_text.strip():
+    if not is_insurance_related(complaint_text):
+        st.error("⚠️ Only *insurance-related complaints* are allowed. Please check your input.")
+        complaint_text = "" 
 
 # optional metadata fields
 customer_id = st.text_input("Customer ID (optional)")
@@ -80,10 +96,10 @@ if st.button("Analyze & Generate Response"):
                 st.subheader("Analysis")
                 st.write(analysis)
 
-                st.subheader("AI-generated response (editable)")
-                st.text_area("Suggested reply", value=response_draft, height=200, key=f"reply_{record['id']}")
+                st.subheader("AI-generated response")
+                st.text_area("Suggested reply", value=response_draft, height=200, key=f"reply_{record['id']}", disabled=True)
 
-                st.success("Analysis complete and draft saved to local records. Visit Admin page to review/send.")
+                st.success("Analysis complete and draft saved to local records. Visit Admin page to review/edit/send.")
             except Exception as e:
                 st.error(f"Error during analysis/generation: {e}")
 
