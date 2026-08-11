@@ -1,0 +1,15 @@
+[server]
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+# Replace with your deployed React portfolio URL
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#6366f1"
+backgroundColor = "#080c14"
+secondaryBackgroundColor = "#0f172a"
+textColor = "#e2e8f0"
+font = "sans serif"
