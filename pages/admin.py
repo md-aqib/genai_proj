@@ -57,10 +57,10 @@ else:
             st.markdown("---")
             st.subheader(f"Complaint #{rec['id']}")
             st.markdown(
-                f"**Customer ID:** {rec.get('customer_id', 'No customer id')}  
+                f"""**Customer ID:** {rec.get('customer_id', 'No customer id')}  
                 **Channel:** {rec.get('channel', 'N/A')}  
                 **Submitted:** {rec.get('timestamp', 'N/A')}  
-                **Status:** {rec.get('status', 'generated')}"
+                **Status:** {rec.get('status', 'generated')}"""
             )
 
             st.markdown("**Complaint text:**")
